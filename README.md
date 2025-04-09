@@ -6,25 +6,7 @@ Este projeto é uma aplicação full-stack voltada para a gestão de alunos e cu
 
 Estrutura do Projeto
 
-Marica_Curso/
-│
-├── main.py         # Arquivo principal com os endpoints da API
-├── models.py       # Modelos ORM com SQLAlchemy
-├── database.py     # Conexão com banco de dados SQLite
-├── init_db.py      # Inicializador do banco (criação das tabelas)
-└── test_con.py     # Teste de conexão com o banco
-│
-├── frontend/
-│   └── my-app/             # Aplicação React
-│       ├── public/
-│       └── src/
-│           ├── api/        
-│           └── pages/      # Páginas principais do sistema
-│               ├── css/    # Arquivos de estilo CSS
-│               ├── add.jsx
-│               ├── read.jsx
-│               └── delete.jsx
-│── requirements.txt
+<pre><code> Marica_Curso/ ├── main.py # Arquivo principal com os endpoints da API ├── models.py # Modelos ORM com SQLAlchemy ├── database.py # Conexão com banco de dados SQLite ├── init_db.py # Inicializador do banco (criação das tabelas) ├── test_con.py # Teste de conexão com o banco ├── requirements.txt # Dependências do backend └── frontend/ └── my-app/ # Aplicação React ├── public/ └── src/ ├── api/ # Arquivos de chamada à API └── pages/ # Páginas principais do sistema ├── css/ # Arquivos de estilo CSS ├── add.jsx ├── read.jsx └── delete.jsx </code></pre>
 
 Tecnologias Utilizadas
 
